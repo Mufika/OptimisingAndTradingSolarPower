@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Testing / typing / lint caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Dotenv (often contains secrets)
+.env
+.env.*
+
+# Logs & local DBs
+*.log
+*.sqlite
+*.sqlite3
+*.db
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
